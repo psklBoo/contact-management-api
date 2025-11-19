@@ -10,3 +10,18 @@ A lightweight Docker image for a RESTful Contact Management API built with Node.
 
 # Pull the Image
 docker pull pornsakul/api-contact:latest
+
+```
+# Project Structure
+│
+├── routes/
+│   ├── contactRoutes.js
+│
+├── app.js
+├──.env
+├── Dockerfile
+├── package.json
+├── package-lock.json
+├── README.md
+└── .gitignore
+```
